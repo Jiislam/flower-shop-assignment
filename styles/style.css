@@ -6,7 +6,7 @@
 header{
     background-color: #E554731A ;
     display: flex;
-    height: ;
+    width: 100%;
 }
 
 .banner-description{
@@ -47,7 +47,7 @@ margin-top: 20px;
 }
 .banner-image{
     text-align: center;
-    margin-bottom: ;
+    margin-left: 30px ;
 
 }
 
@@ -63,3 +63,47 @@ margin-top: 20px;
 
 /* featured section */
 
+.feature-description{
+    align-items: center;
+    padding-top: 250px;
+    padding border-bottom: 48px;
+}
+.featured-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.featured-details{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+/* flowers section */
+.flower-container{
+    display: flex;
+    margin: 0px 200px;
+    justify-content: space-around;
+}
+
+.flower-img{
+
+padding: 150 px;
+
+}
+.flower1{
+    display: flex;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    background-color: #A7216226;
+ border-radius: 300px 300px 0px 0px;
+ text-align: center;
+}
