@@ -66,9 +66,13 @@ margin-top: 20px;
 .feature-description{
     align-items: center;
     padding-top: 250px;
-    border-bottom: 48px;
+    padding: 48px;
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid black; */
 }
 .featured-title{
+
     color: #272727;
 text-align: center;
 font-family: Lato;
@@ -92,9 +96,10 @@ line-height: 30px;
     margin: 158px 316px;
     justify-content: space-around;
     gap: 24px;
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-bottom: 150px;
+    /* border: 2px solid black; */
 }
 
 
@@ -155,13 +160,14 @@ padding-top: 100px;
     display: flex;
     justify-content: space-around;
     text-align: center;
-align-items: center ; 
-margin-bottom: 128px;
+ align-items: center ; 
+ margin-bottom: 128px;
 }
 .hot-deal{
     height: 620px;
     background-color:#E554730D ;
     margin-top: 128px;
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -171,7 +177,7 @@ margin-bottom: 128px;
 
 .instagram{
 margin: auto;
-width: 90%;
+width: 100%;
 margin-bottom: 80px;
 
 }
@@ -202,19 +208,28 @@ line-height: 30px;
 }
 .insta-photo{
     display: flex;
-    justify-content: space-around;
-    gap: 25px;
+    justify-content: space-between;
+    /* gap: 25px; */
+    width: 90%;
+    /* border: 2px solid; */
+    margin: auto;
 }
+    
+.insta-photo> img{
+    width: 342px;
+height: 396px;
+}
+
 input{
     border-radius: 8px;
 background: #FFF;
 height: 64px;
 width: 720px;
 border: none;
-padding-left: 20px ;
+padding-left: 20px;
 }
-.latest-deals{
-    
+
+.latest-deals{  
     text-align: center;
     width: 90%;
     background-color: #5d494d;
@@ -265,3 +280,43 @@ font-weight: 400;
 line-height: normal;
 padding-top: 30px;
 }
+/* bonus section */
+.What-they-say  {
+margin-top: 100px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #c3788837;
+    text-align: center ;
+    /* border: 2px black solid; */
+background-image: url(../5616586.jpg);
+background-size: cover;  
+background-repeat: no-repeat;
+background-position: center;
+}
+  
+  
+  
+  .quote {
+    margin-bottom: 20px;
+  }
+  
+  .quote p {
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  .quote h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .quote p span {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: normal;
+    color: #888;
+  }
+  
