@@ -68,11 +68,12 @@ margin-top: 20px;
 
 .feature-description{
     align-items: center;
-    padding-top: 250px;
+   
     padding: 48px;
     width: 80%;
     margin: auto;
     /* border: 2px solid black; */
+    margin: 100px;
 }
 .featured-title{
 
